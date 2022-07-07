@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: black;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header__menu {
@@ -65,6 +65,39 @@ body {
 
 .mobile {
   display: none;
+}
+
+.mobile__menu {
+  list-style: none;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile__item {
+  padding: 10px 0 10px 0;
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+.mobile__item:hover {
+  background-color: #fcec58;
+  color: black;
+}
+
+.mobile__link {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+.mobile__link:hover {
+  color: black;
+  background-color: #fcec58;
 }
 
 @media screen and (max-width: 768px) {
